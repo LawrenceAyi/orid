@@ -474,6 +474,30 @@ ol {
 	background: #CE8806;
 }
 
+.pageheader-bg {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	z-index: -1;
+  }
+
+#page-header {
+	position: relative;
+	/* margin-top: 60px; */
+	padding: 150px 0px;
+  }
+  
+  .header-content h1 {
+	color: #FFF;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+	text-align: center;
+  }
+
 /*---------------------
 	Counter Section
 -----------------------*/
@@ -782,6 +806,64 @@ ol {
 	  opacity: 0;
 	}
   }  
+
+  /* .services .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+}
+
+.services .icon-box i {
+  font-size: 48px;
+  float: left;
+  color: #7cc576;
+}
+
+.services .icon-box p {
+  font-size: 15px;
+  color: #959595;
+  margin-left: 60px;
+}
+
+.services .image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+} */
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+
+#services {
+padding-top: 50px;
+}
+.services .icon-box h4 {
+	font-size: 25px;
+	font-weight: 700;
+	margin: 0px 0px 10px 60px;
+	padding: 10px 5px 0px 50px;
+  }
+  
+  .services .icon-box img {
+	font-size: 48px;
+	float: left;
+	color: #7cc576;
+  }
+  
+  .services .icon-box p {
+	font-size: 15px;
+	color: #959595;
+	margin-left: 60px;
+  }
+  
+  .services .image {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 400px;
+  }
 
 /*--------------------------------------------------------------
 # Funding Services
