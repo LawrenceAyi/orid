@@ -857,6 +857,13 @@ padding-top: 50px;
 	margin: 0px 0px 10px 60px;
 	padding: 15px 5px 0px 50px;
   }
+
+  .services .icon-box h5 {
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0px 0px 0px 35px;
+	padding: 27px 5px 0px 50px;
+  }
   
   .services .icon-box img {
 	font-size: 48px;
