@@ -1356,6 +1356,43 @@ padding-top: 50px;
 	font-weight: 500;
 }
 
+.resmag-site-btn-sec {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	/* background: #153D6F; */
+	color: #153D6F;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 14px;
+	/* border-radius: 50px; */
+	min-width: 170px;
+	text-align: center;
+	border: 2px solid #153D6F;
+	cursor: pointer;
+	/* margin-top: 30px; */
+}
+
+.resmag-site-btn {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	background: #153D6F;
+	color: #fff;
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 14px;
+	/* border-radius: 50px; */
+	min-width: 170px;
+	text-align: center;
+	border: 2px solid #153D6F;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+
 /*---------------------
 	More About Us Section
 -----------------------*/
