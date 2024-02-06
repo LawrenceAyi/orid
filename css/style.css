@@ -99,6 +99,11 @@ ol {
 	margin-bottom: 30px;
 }
 
+.profile-title h3 {
+	/* text-transform: uppercase; */
+	margin-bottom: 30px;
+}
+
 .section-title p {
 	margin-bottom: 30px;
 }
@@ -2140,6 +2145,15 @@ padding-top: 50px;
 	padding-bottom: 40px;
 }
 
+.ptmember {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.ptmember-info {
+	padding-left: 50px;
+}
+
 
 .tmember h5 {
 	font-size: 16px;
@@ -2152,6 +2166,18 @@ padding-top: 50px;
 	margin-bottom: 0;
 	font-weight: 600;
 	font-size: 14px;
+}
+
+.ptmember p {
+	color: #CE8806;
+	margin-bottom: 0;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.ptmember-content p {
+	margin-bottom: 10;
+	font-size: 15px;
 }
 
 .tmember:hover .tmember-pic:after {
@@ -2193,6 +2219,15 @@ padding-top: 50px;
 	margin-bottom: 10px;
 }
 
+.ptmember .ptmember-pic {
+	width: 242px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
 .tmember .tmember-pic:after {
 	position: absolute;
 	content: '';
@@ -2206,6 +2241,8 @@ padding-top: 50px;
 	-o-transition: all 0.4s;
 	transition: all 0.4s;
 }
+
+
 
 .tmember .tmember-social {
 	position: absolute;
