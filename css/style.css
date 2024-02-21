@@ -1110,7 +1110,7 @@ padding-top: 50px;
 
 .highlight-item {
 	margin-bottom: 50px;
-	padding-left: 0px;
+	/* padding-left: 0px; */
 }
 
 .highlight-item-background {
@@ -3009,6 +3009,7 @@ padding-top: 50px;
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+
 }
 
 /* small Mobile :320px. */
@@ -3024,7 +3025,7 @@ padding-top: 50px;
 		font-size: 25px;
 	}
 	.news-item .news-info {
-		margin: 0;
+		/* margin: 0; */
 	}
 	.blog-item .blog-thumb {
 		height: 230px;
@@ -3072,6 +3073,7 @@ padding-top: 50px;
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+
 }
 
 /*--------------------------------------------------------------
